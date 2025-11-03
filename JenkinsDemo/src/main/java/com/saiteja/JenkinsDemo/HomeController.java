@@ -11,4 +11,9 @@ public class HomeController {
 	public String sayHello(@PathVariable("name") String name) {
 		return "Hello "+name+" Very Good Morning !!!";
 	}
+	
+	@GetMapping("/sayHI/{name}")
+	public String sayHi(@PathVariable("name") String name) {
+		return "Hii "+name+" Very Good Morning !!!";
+	}
 }
