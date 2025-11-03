@@ -9,7 +9,7 @@ public class HomeController {
 
 	@GetMapping("/greet/{name}")
 	public String sayHello(@PathVariable("name") String name) {
-		return "Hello "+name+" Very Good Morning !!!";
+		return "Hello "+name+" Very Good Morning From Jenkins!!!";
 	}
 	
 	@GetMapping("/sayHI/{name}")
